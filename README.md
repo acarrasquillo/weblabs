@@ -1,12 +1,11 @@
 # cyberlabs
 
 ---
-author:
-- |
-    Abimael Carrasquillo-Ayala\
+authors:
+-   Abimael Carrasquillo-Ayala\
     `abimael.carrasquillo@gmail.com`\
-    Ricardo De La Vega\
-    **advisor**\
+- Ricardo De La Vega\
+- **advisor**
     José Ortiz-Ubarri\
     `cheo@hpcf.upr.edu`\
     University of Puerto Rico, Río Piedras\
@@ -85,12 +84,6 @@ XSS not only occurs in HTML tags, also inside HTML attributes, on CSS
 and Javascript code can be found, figure \[fig:xssattributes\] show an
 example of XSS on *HTML* attributes.
 
-![XSS between html tags<span
-data-label="fig:correctxsstags"></span>](correctxsstags)
-
-![XSS on html attributes<span
-data-label="fig:xssattributes"></span>](xssattributes)
-
 Input Validation
 ----------------
 
@@ -125,15 +118,6 @@ integer number, by this the user will not be able to use the `';'` and
 make more than one system call or read directories that it should not be
 allowed.
 
-![Input validation laboratory student id form<span
-data-label="fig:popensid"></span>](popensid)
-
-![Input validation laboratory student essay<span
-data-label="fig:essay"></span>](essay)
-
-![Input valdation vulneravity<span
-data-label="fig:vulnerbility"></span>](vulnerbility)
-
 Conclusion
 ==========
 
@@ -145,7 +129,7 @@ aproach to solve them were provided. This secured the application of
 allowing unwanted behavior that affected the main purpose and user
 experience.
 
-Acknowledgement {#acknowledgement .unnumbered}
+Acknowledgement
 ===============
 
 This work is supported by the scholarship Academics and Training for the
