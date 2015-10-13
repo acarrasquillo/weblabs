@@ -59,8 +59,6 @@ allowed the user to insert a image on the webpage, for this case this
 type of behavior should not occur as the application purpose was to
 display the text inserted by the user.
 
-![XSS between html tags<span data-label="fig:xsstags"></span>](xsstags)
-
 As show on Figure \[fig:xsstags\], the user input was:\
 \
 this input cointains *HTML* tags, that if are not correctly escaped, the
